@@ -23,7 +23,7 @@ public final class Db {
         config.setMinimumIdle(25);
         config.setPoolName("HIKARI-CP");
         config.setIdleTimeout(IDLE_TIMEOUT_MS);
-
+        System.out.println("Hello world");
         connectionPool = new HikariPool(config);
     }
 
