@@ -37,7 +37,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
     implementation 'com.zaxxer:HikariCP:5.0.0'
-    
+    implementation 'mysql:mysql-connector-java:8.0.25'
 }
 
 test {
