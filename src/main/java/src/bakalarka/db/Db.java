@@ -14,7 +14,7 @@ public final class Db {
 
     public static void setUp() {
         HikariConfig config = new HikariConfig();
-        config.setJdbcUrl(String.format("jdbc:mysql://%s/%s?user=%s&password=%s&dontTrackOpenResources=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false", "localhost", "counters", "root", "FGgCngH5290"));
+        config.setJdbcUrl(String.format("jdbc:mysql://%s/%s?user=%s&password=%s&dontTrackOpenResources=true&characterEncoding=utf-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false", "localhost", "counters", "root", "FGgCngH5290"));
 
         config.setUsername("root");
         config.setPassword("FGgCngH5290");
